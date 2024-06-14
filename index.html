@@ -6,7 +6,7 @@
     <title>Prediksi Nama Jodoh</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: "Arial", sans-serif;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -14,9 +14,20 @@
         height: 100vh;
         margin: 0;
         background-color: #e0f7fa;
+        padding: 20px;
       }
       h1 {
         color: #00796b;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      h4 {
+        color: #004d40;
+        margin: 0;
+      }
+      p {
+        color: #00796b;
+        margin: 5px 0;
       }
       .container {
         background-color: #ffffff;
@@ -25,20 +36,17 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         text-align: center;
         border: 2px solid #00796b;
+        max-width: 400px;
+        width: 100%;
       }
-      input[type="text"] {
-        padding: 10px;
-        width: 200px;
-        border: 1px solid #00796b;
-        border-radius: 5px;
-        margin-bottom: 20px;
-      }
+      input[type="text"],
       select {
         padding: 10px;
-        width: 220px;
+        width: calc(100% - 22px);
         border: 1px solid #00796b;
         border-radius: 5px;
         margin-bottom: 20px;
+        font-size: 16px;
       }
       button {
         padding: 10px 20px;
@@ -48,6 +56,8 @@
         border-radius: 5px;
         cursor: pointer;
         margin: 5px;
+        font-size: 16px;
+        width: calc(100% - 22px);
       }
       button:hover {
         background-color: #004d40;
@@ -62,8 +72,9 @@
   <body>
     <div class="container">
       <h1>Prediksi Nama Jodoh</h1>
-      <h1>https://bercandajodoh.netlify.app/</h1>
-      <p style="margin-top: -20px; font-weight: 100">Hanya untuk bercanda</p>
+      <h4>bercandajodoh.netlify.app</h4>
+      <p>yang mau nyoba link nya diatas</p>
+      <p>Hanya untuk bercanda</p>
       <select id="gender">
         <option value="male">Prediksi Jodoh Perempuan</option>
         <option value="female">Prediksi Jodoh Laki-Laki</option>
